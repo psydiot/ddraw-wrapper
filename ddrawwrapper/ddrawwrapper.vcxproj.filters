@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirectDrawWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectDrawSurfaceWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectDrawPaletteWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectDrawClipperWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Logging\Logging.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\Versions\d3d9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\Versions\IDirect3D9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\Versions\IDirect3DCubeTexture9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\Versions\IDirect3DDevice9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\Versions\IDirect3DIndexBuffer9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\Versions\IDirect3DPixelShader9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\Versions\IDirect3DQuery9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\Versions\IDirect3DStateBlock9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\Versions\IDirect3DSurface9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\Versions\IDirect3DSwapChain9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\Versions\IDirect3DTexture9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\Versions\IDirect3DVertexBuffer9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\Versions\IDirect3DVertexDeclaration9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\Versions\IDirect3DVertexShader9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\Versions\IDirect3DVolume9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\Versions\IDirect3DVolumeTexture9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\Versions\InterfaceQuery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wrappers\wrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IClassFactory\IClassFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\IDirectDrawTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\ddraw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\IDirectDrawX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\IDirectDrawClipper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\IDirectDrawColorControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\IDirectDrawEnumCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\IDirectDrawPalette.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\IDirectDrawFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\IDirectDrawGammaControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\IDirectDrawSurfaceX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\Versions\IDirectDrawSurface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\Versions\IDirectDrawSurface2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\Versions\IDirectDrawSurface3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\Versions\IDirectDrawSurface4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ddraw\Versions\IDirectDrawSurface7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirectDrawWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wrappers\wrapper.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\Versions\d3d9.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\Versions\IDirect3D9.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\Versions\IDirect3DCubeTexture9.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\Versions\IDirect3DDevice9.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\Versions\IDirect3DIndexBuffer9.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\Versions\IDirect3DPixelShader9.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\Versions\IDirect3DQuery9.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\Versions\IDirect3DStateBlock9.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\Versions\IDirect3DSurface9.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\Versions\IDirect3DSwapChain9.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\Versions\IDirect3DTexture9.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\Versions\IDirect3DVertexBuffer9.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\Versions\IDirect3DVertexDeclaration9.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\Versions\IDirect3DVertexShader9.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\Versions\IDirect3DVolume9.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\Versions\IDirect3DVolumeTexture9.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\ddraw.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\IDirectDrawTypes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\IDirectDrawX.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\IDirectDrawClipper.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\IDirectDrawColorControl.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\IDirectDrawEnumCallback.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\IDirectDrawPalette.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\IDirectDrawFactory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\IDirectDrawGammaControl.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\IDirectDrawSurfaceX.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\Versions\IDirectDrawSurface.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\Versions\IDirectDrawSurface2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\Versions\IDirectDrawSurface3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\Versions\IDirectDrawSurface4.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ddraw\Versions\IDirectDrawSurface7.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ddraw.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
